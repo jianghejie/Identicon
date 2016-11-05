@@ -1,9 +1,7 @@
 <?php
 
-namespace Identicon\Generator;
-
-use Exception;
-
+require_once(dirname(__FILE__)."/BaseGenerator.php");
+require_once(dirname(__FILE__)."/GeneratorInterface.php");
 /**
  * @author Benjamin Laugueux <benjamin@yzalis.com>
  */

@@ -1,11 +1,5 @@
 <?php
 
-namespace Identicon\Generator;
-
-use Exception;
-use ImagickDraw;
-use ImagickPixel;
-
 /**
  * @author Francis Chuang <francis.chuang@gmail.com>
  */

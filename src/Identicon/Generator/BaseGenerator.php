@@ -1,9 +1,5 @@
 <?php
 
-namespace Identicon\Generator;
-
-use Exception;
-
 /**
  * @author Benjamin Laugueux <benjamin@yzalis.com>
  */

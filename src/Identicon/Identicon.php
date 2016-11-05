@@ -1,9 +1,6 @@
 <?php
-
-namespace Identicon;
-
-use Identicon\Generator\GdGenerator;
-use Identicon\Generator\GeneratorInterface;
+require_once(dirname(__FILE__)."/Generator/GdGenerator.php");
+require_once(dirname(__FILE__)."/Generator/GeneratorInterface.php");
 
 /**
  * @author Benjamin Laugueux <benjamin@yzalis.com>

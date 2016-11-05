@@ -1,7 +1,5 @@
 <?php
 
-namespace Identicon\Generator;
-
 /**
  * @author Grummfy <grummfy@gmail.com>
  */

@@ -1,7 +1,4 @@
 <?php
-
-namespace Identicon\Generator;
-
 /**
  * @author Benjamin Laugueux <benjamin@yzalis.com>
  */
