@@ -13,36 +13,7 @@ Here is some examples of awesome results!
 ![Identicon example #4](doc/8.8.4.4.png)&nbsp;&nbsp;
 ![Identicon example #5](doc/yzalis.png)
 
-## Installation
-
-The recommended way to install Identicon is through composer.
-
-Just create a `composer.json` file for your project:
-
-``` json
-{
-    "require": {
-        "yzalis/identicon": "^1.1"
-    }
-}
-```
-
-And run these two commands to install it:
-
-``` bash
-$ wget http://getcomposer.org/composer.phar
-$ php composer.phar install
-```
-
-Now you can add the autoloader, and you will have access to the library:
-
-``` php
-<?php
-
-require 'vendor/autoload.php';
-```
-
-You're done.
+ 
 
 
 ## Usage
@@ -56,7 +27,7 @@ The string can be an email, an IP address, a username, an ID or something else.
 Create a new ```Identicon``` object.
 
 ``` php
-$identicon = new \Identicon\Identicon();
+$identicon = new Identicon();
 ```
 
 Then you can generate and display an identicon image
@@ -117,22 +88,7 @@ $imageDataUri = $identicon->getImageDataUri('bar');
 ```
 
 
-## Unit Tests
-
-To run unit tests, you'll need and a set of dependencies you can install using Composer:
-
-```
-php composer.phar install
-```
-
-Once installed, just launch the following command:
-
-```
-./vendor/bin/phpunit
-```
-
-Everything should be ok.
-
+ 
 
 ## Credits
 
